@@ -216,16 +216,39 @@ model-viewer{
 
   <div class="top-ui">
 
-    <!-- CAMBIA logo.png POR TU LOGO -->
   
     <img src="logo.png" class="logo">
 
     <div class="subtitle">
-@@ -249,30 +249,30 @@
+      Visualiza el platillo en 3D y colócalo en tu mesa.
+    </div>
+
+    <div class="gold-line"></div>
+
+  </div>
+
+  <model-viewer
+    src="Cake.glb"
+    ios-src="Cake (1).usdz"
+
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+
+    camera-controls
+    auto-rotate
+
+    shadow-intensity="1"
+
+    scale="0.4 0.4 0.4"
+
+    exposure="1.15"
+
+    alt="Platillo 3D">
+
+    <button slot="ar-button" class="ar-button">
 
       <div class="icon-wrap">
 
-        <!-- CAMBIA icono.png POR TU LOGO -->
       
         <img src="icono.png">
 
